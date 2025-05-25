@@ -1,0 +1,42 @@
+{
+    "users": [{
+            "id": 1,
+            "name": "reza yolme",
+            "username": "RY",
+            "email": "reza@gmail.com",
+            "role": "ADMIN"
+        },
+        {
+            "id": 2,
+            "name": "mmd yolme",
+            "username": "MY",
+            "email": "mmd@gmail.com",
+            "role": "ADMIN"
+        },
+        {
+            "id": "751ba1ea-f07a-43e7-bc81-888c1dc8e445",
+            "name": "ali",
+            "username": "aliali",
+            "email": "ali@gmail.com",
+            "crime": 0,
+            "role": "USER"
+        },
+        {
+            "id": "88f49d59-9c14-4fe7-a211-9ddb4a364e21",
+            "name": "mohammad",
+            "username": "asd",
+            "email": "ali@gmail.com",
+            "crime": 0,
+            "role": "USER"
+        }
+    ],
+    "books": [
+        { "id": 1, "title": "546", "author": "546", "price": 546, "free": 1 },
+        { "id": 2, "title": "546", "author": "546", "price": 546, "free": 1 }
+    ],
+    "rents": [{
+        "id": 1,
+        "userId": 1,
+        "bookId": 2
+    }]
+}
