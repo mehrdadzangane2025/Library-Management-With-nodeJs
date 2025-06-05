@@ -1,46 +1,112 @@
 {
-    "users": [{
-            "id": "751ba1ea-f07a-43e7-bc81-888c1dc8e445",
-            "name": "ali",
-            "username": "aliali",
-            "email": "ali@gmail.com",
-            "crime": 0,
-            "role": "USER"
-        },
-        {
-            "id": "88f49d59-9c14-4fe7-a211-9ddb4a364e21",
-            "name": "mohammad",
-            "username": "asd",
-            "email": "ali@gmail.com",
-            "crime": 0,
-            "role": "USER"
-        },
-        {
-            "id": "622020f5-d608-49ba-8638-e1eed861161b",
-            "name": "1",
-            "username": "2",
-            "email": "23",
-            "crime": 0,
-            "role": "USER"
-        }
-    ],
-    "books": [
-        { "id": 2, "title": "546", "author": "546", "price": 546, "free": 1 },
-        { "id": 3, "title": "546", "author": "546", "price": 546, "free": 1 },
-        { "id": 4, "title": "546", "author": "546", "price": 546, "free": 1 }
-
-    ],
-    "rents": [
-        { "id": 1, "userId": 1, "bookId": 2 },
-        {
-            "id": "20465362-660f-466e-8380-36ecb94c13b1",
-            "userId": "1",
-            "bookId": "1"
-        },
-        {
-            "id": "2f6c06f7-6eda-4249-8bbf-1ebe9a28bfac",
-            "userId": "1",
-            "bookId": "1"
-        }
-    ]
+  "users": [
+    {
+      "id": "751ba1ea-f07a-43e7-bc81-888c1dc8e445",
+      "name": "ali",
+      "username": "aliali",
+      "email": "ali@gmail.com",
+      "crime": 0,
+      "role": "USER"
+    },
+    {
+      "id": "88f49d59-9c14-4fe7-a211-9ddb4a364e21",
+      "name": "mohammad",
+      "username": "asd",
+      "email": "ali@gmail.com",
+      "crime": 0,
+      "role": "USER"
+    },
+    {
+      "id": "622020f5-d608-49ba-8638-e1eed861161b",
+      "name": "1",
+      "username": "2",
+      "email": "23",
+      "crime": "20_000",
+      "role": "USER"
+    },
+    {
+      "id": "1",
+      "name": "ali",
+      "username": "mmd",
+      "email": "mmddm",
+      "crime": "25_000 Rial",
+      "role": "ADMIN"
+    },
+    {
+      "id": "574edbe7-789a-4bb3-91f0-d1b4950c9eb8",
+      "name": "asdsdadaasadd",
+      "username": "ASDDA",
+      "email": "asdsdadsadsdasdasdasds11111",
+      "crime": 0,
+      "role": "USER"
+    },
+    {
+      "id": "774b0854-af67-4b59-9e1e-30137f2860ba",
+      "name": "a",
+      "username": "b",
+      "email": "c",
+      "crime": 0,
+      "role": "USER"
+    },
+    {
+      "id": "88333c9a-0e66-4a8f-833c-c161f28cbcd6",
+      "name": "a1",
+      "username": "b2",
+      "email": "c3",
+      "crime": 0,
+      "role": "USER"
+    }
+  ],
+  "books": [
+    {
+      "id": 2,
+      "title": "546",
+      "author": "546",
+      "price": 546,
+      "free": 1
+    },
+    {
+      "id": 3,
+      "title": "546",
+      "author": "546",
+      "price": 546,
+      "free": 0
+    },
+    {
+      "id": 4,
+      "title": "1223",
+      "author": "1223",
+      "price": 123456,
+      "free": 1
+    },
+    {
+      "id": "730a8f09-372c-44b9-bc90-0a93e2bbfa90",
+      "title": "123123123",
+      "author": "123123123",
+      "price": 123123123,
+      "free": 1
+    }
+  ],
+  "rents": [
+    {
+      "id": 1,
+      "userId": 1,
+      "bookId": 2
+    },
+    {
+      "id": "20465362-660f-466e-8380-36ecb94c13b1",
+      "userId": "1",
+      "bookId": "1"
+    },
+    {
+      "id": "2f6c06f7-6eda-4249-8bbf-1ebe9a28bfac",
+      "userId": "1",
+      "bookId": "1"
+    },
+    {
+      "id": "1331426d-26f4-4486-9471-c0f38d7663f4",
+      "userId": 1,
+      "bookId": 3
+    }
+  ]
 }
